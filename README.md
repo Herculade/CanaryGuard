@@ -3,6 +3,8 @@
 
 **CanaryGuard** is a Python-based security monitoring tool designed to enhance the capabilities of OpenCanary by tracking and mitigating SSH brute force attacks. CanaryGuard also provides detailed logging and metrics to help analyze attack patterns and improve system security.
 
+### This is a very basic project that works for my own needs, im sure someone out there will find it useful
+
 ## Features
 
 - **SSH Brute Force Detection**: Monitors OpenCanary logs for SSH login attempts and detects brute force attacks.
@@ -11,7 +13,7 @@
 - **Abuse IPDB Reporting**: Reports malicious IPs to Abuse IPDB for broader threat intelligence.
 - **Detailed Logging**: Logs all activities to `canaryguard.log` with human-readable timestamps.
 - **Log Archiving**: Automatically archives logs when they exceed a specified size to maintain performance.
-- **Metrics Tracking**: Tracks and stores various metrics, including total login attempts, unique IP addresses, banned IPs count, and more.
+- **Metrics Tracking**: Tracks and stores various metrics, including total login attempts, unique IP addresses, banned IPs count
 - **Repeat Offender Tracking**: Identifies and tracks repeat offenders for enhanced security measures.
 
 ## Prerequisites
