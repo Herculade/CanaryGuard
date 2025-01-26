@@ -16,6 +16,6 @@
 
 ## Prerequisites
 
-- **OpenCanary running somewhere with all services but SSH disabled (So nothing else goes into the log that this script can't parse)
-- **Access to the OpenCanary Log file
-- **python3
+- **OpenCanary** running somewhere with all services but SSH disabled (So nothing else goes into the log that this script can't parse)
+- **Access to the OpenCanary Log file**
+- **python3**
