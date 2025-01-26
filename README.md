@@ -1,5 +1,6 @@
 # CanaryGuard 
 ## Integrates with Pi-hole to block offending IPs and reports malicious activities to Abuse IPDB.
+## This parses OpenCanary logs (SSH only, so please disable all other services) - sorry if you wanted more out of this but I only care about SSH attacks at this stage
 
 **CanaryGuard** is a Python-based security monitoring tool designed to enhance the capabilities of OpenCanary by tracking and mitigating SSH brute force attacks. CanaryGuard also provides detailed logging and metrics to help analyze attack patterns and improve system security.
 
